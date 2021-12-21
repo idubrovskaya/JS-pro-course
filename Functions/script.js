@@ -31,13 +31,13 @@ function makeCounter() {
   };
 }
 
-let counter = makeCounter();
+let Counter = makeCounter();
 
-console.log('3. Количество вызовов в квадрате:', counter());
-console.log('3. Количество вызовов в квадрате:', counter());
-console.log('3. Количество вызовов в квадрате:', counter());
-console.log('3. Количество вызовов в квадрате:', counter());
-console.log('3. Количество вызовов в квадрате:', counter());
+console.log('3. Количество вызовов в квадрате:', Counter());
+console.log('3. Количество вызовов в квадрате:', Counter());
+console.log('3. Количество вызовов в квадрате:', Counter());
+console.log('3. Количество вызовов в квадрате:', Counter());
+console.log('3. Количество вызовов в квадрате:', Counter());
 
 // task 4
 

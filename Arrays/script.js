@@ -125,11 +125,21 @@ console.log(
 // Task 10
 
 function findIndex(arr, element) {
-  arr.forEach((el, index) => (el === element ? (rez = index) : (rez = -1)));
+  let rez = -1;
+  arr.forEach((el, index) => {
+    if (rez !== -1) {
+      return;
+    }
+    if (el === element) {
+      rez = index;
+    } else {
+      rez = -1;
+    }
+  });
   return rez;
 }
 
-console.log('10. Индекс элемента:', findIndex([1, 2, 3], 6));
+console.log('10. Индекс элемента:', findIndex([1, 2, 3, 4, 5], 3));
 
 // Task 11
 
@@ -141,6 +151,20 @@ console.log(
   '11. Поиск подходящих имен:',
   search(['Ivan', 'Misha', 'Dima', 'Dasha'], 'sh')
 );
+
+function searchArr(arr, searchText) {
+  let rezArr = arr.reduce((prev, curr) => {
+    if (curr.toLowerCase().includes(searchText.toLowerCase())) {
+      prev.push(curr);
+      // return prev.concat(curr)
+    }
+    return prev;
+  }, []);
+
+  return rezArr;
+}
+
+console.log('11.', searchArr(['Ivan', 'Misha', 'Dima', 'Dasha'], 'sh'));
 
 // Task 12
 
