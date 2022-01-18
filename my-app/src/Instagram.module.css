@@ -1,0 +1,143 @@
+.instagramContainer {
+  background: #cbcbcb;
+  width: 375px;
+  height: 790px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.userName {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+
+.userFollowData {
+  display: flex;
+}
+
+.avatar {
+  width: 77.77px;
+  height: 77.77px;
+  border-radius: 50%;
+  padding: 10px 20px;
+}
+
+.userData {
+  padding: 10px 20px;
+}
+
+.userData > p {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 15px;
+}
+
+.userInfo > h4 {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin: 3px 0px;
+}
+
+.userInfo > p {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin: 3px 0px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.buttonBlue {
+  width: 99px;
+  height: 30px;
+  background: #1fa1ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: transparent;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttonWhite {
+  width: 99px;
+  height: 30px;
+  background: #ffffff;
+  border: 0.7px solid #cbcbcb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  /* margin: 0px 10px; */
+  cursor: pointer;
+}
+
+.storyNavigation {
+  padding: 0 7.5px;
+}
+.stories {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  padding: 10px 10px;
+}
+
+.postFeed {
+  display: flex;
+  flex-wrap: wrap;
+}
+.posts {
+  width: 125px;
+  height: 125px;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 10px;
+}
+
+.bottomNavigation {
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
