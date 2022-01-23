@@ -1,0 +1,42 @@
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.onlinerPost {
+  margin: 15px;
+  background-position: center;
+  background-size: cover;
+  width: 1000px;
+  height: 250px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.category {
+  background-color: yellow;
+  color: #000;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.comment {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.623);
+  border: 1px solid;
+  border-color: yellow;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title {
+  color: white;
+  text-align: left;
+  padding: 80px 40px;
+}
