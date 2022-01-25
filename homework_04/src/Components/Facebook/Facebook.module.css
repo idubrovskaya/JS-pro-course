@@ -1,0 +1,44 @@
+.facebookCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.facebookPost {
+  display: flex;
+
+  text-align: left;
+  margin: 15px;
+  padding: 10px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.userAvatar img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.name {
+  display: inline;
+  font-weight: bold;
+  color: rgb(44, 44, 151);
+}
+
+.postDescription {
+  margin: 5px 0;
+}
+
+.buttons button {
+  border: none;
+  background: none;
+  padding: 0;
+  color: rgb(44, 44, 151);
+  cursor: pointer;
+}
+
+span {
+  color: #cccccc;
+  margin: 0 5px;
+}

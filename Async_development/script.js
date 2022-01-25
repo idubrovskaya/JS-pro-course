@@ -63,6 +63,18 @@ let users = fetch(url)
   })
   .then((rez) => console.log(rez));
 
+// вариант 2
+
+async function filterUsers() {
+  let response = await fetch('https://jsonplaceholder.typicode.com/users');
+  let users = await response.json();
+  let filter = users.filter((users) => {
+    return users.id % 2 === 0;
+  });
+  console.log(filter);
+}
+filterUsers();
+
 // task 5, 6
 
 let allUsers = fetch(url).then((res) => res.json());
@@ -203,7 +215,7 @@ function createList(data) {
 }
 //getToDoList();
 
-//task 8 
+//task 8
 
 let div3 = document.createElement('div');
 div3.setAttribute('id', 3);
@@ -234,8 +246,7 @@ function createPics(data) {
 
 //getPhotos();
 
-// task 9 
-
+// task 9
 
 let div4 = document.createElement('div');
 div4.setAttribute('id', 4);
@@ -267,5 +278,5 @@ async function getPics() {
   let data = await promise.json();
   console.log(data);
 }
-getAlbums();
-getPics();
+// getAlbums();
+// getPics();

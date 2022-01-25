@@ -1,0 +1,8 @@
+.time {
+  max-width: 600px;
+  font-size: 100px;
+  margin: 15px;
+  background-color: tomato;
+  border: 5px solid black;
+  border-radius: 15px;
+}

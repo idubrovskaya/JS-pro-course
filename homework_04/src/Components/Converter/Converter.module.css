@@ -1,0 +1,21 @@
+.converter {
+  position: relative;
+  padding: 15px 0;
+  margin: 15px 0;
+  border: 2px solid #111111;
+}
+
+.converter p {
+  position: absolute;
+  padding: 0 3px;
+
+  margin: 0;
+  top: 0;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+}
+.converterBlock {
+  max-width: 700px;
+  margin: 15px;
+}
